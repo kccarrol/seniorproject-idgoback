@@ -1,0 +1,63 @@
+<resources>
+    <!-- Application Name -->
+    <string name="app_name">IdGoBack</string>
+    <string name="title_activity_main_ui">IdGoBack</string>
+    
+    <!-- Menu Setting -->
+    <string name="menu_settings">Settings</string>
+    
+    <!-- Sign in -->
+    <string name="name">Name</string>
+    <string name="hint">Enter your name</string>
+    <string name="sign_in">Sign in</string>
+   
+    <!-- Explore -->
+    <string name="location">Location</string>
+    <string name="type">Type</string>
+    <string name="explore">Explore</string> 
+    <string name="sort_by">Sort by</string>
+    <string name="sort_by_rating">Rating</string>
+    <string name="sort_by_distance">Distance</string> 
+    
+    <!-- Home  -->
+    <string name="invite_a_friend">Invite a friend</string>
+    <string name="change_pwd">Change Password</string>
+    <string name="sign_out">Sign out</string>
+    <string name="user_name">John Smith</string>
+    <string name="user_contact">jsmith@gmail.com</string>
+    <string name="newpwd">New Password</string>
+    <string name="comfirmpwd">Comfirm</string>
+    
+    <string name="app_id">449271501805574</string>
+    <string name="main_text_view_string">Main Text View</string>
+    <string name="camera_button_text">Camera Button</string>
+    
+    <!-- Item List -->
+    <color name="text_color">#000000</color>
+    
+    <!-- Info Fragment -->
+    <string name="address">Address</string>
+    <string name ="contact">Contact</string>
+    <string name ="hour">Hours</string>
+    
+    <!-- Review Fragment -->
+    <string name="review_button">Add review</string>
+    <color name="blue">#67C8FF</color>
+
+    
+    <!-- Log In -->
+    <string name="welcome">Share the places you</string>
+    <string name="welcome1">would Go Back to</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="login_Username">Username</string>
+    <string name="login_Password">Password</string>
+    <string name="signUp_Email">Email</string>
+    <string name="signUp_facebook_string">Sign Up with Facebook</string>
+    <string name="signUp_phone_string">Phone</string>
+    
+    <string name="res">Restaurant</string>
+    <string name="place">Places</string>
+    <string name="bus">Business</string>
+    <string name="searchButton">Search</string>
+</resources>

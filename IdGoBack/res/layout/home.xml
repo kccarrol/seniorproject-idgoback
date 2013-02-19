@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <QuickContactBadge
+        android:id="@+id/badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="41dp"
+        android:src="@drawable/contact"/>
+
+    <Button
+        android:id="@+id/invite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/badge"
+        android:layout_alignRight="@+id/userName"
+        android:layout_below="@+id/badge"
+        android:layout_marginTop="53dp"
+        android:text="@string/invite_a_friend" />
+
+    <Button
+        android:id="@+id/changepwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/invite"
+        android:layout_alignRight="@+id/invite"
+        android:layout_below="@+id/invite"
+        android:layout_marginTop="18dp"
+        android:text="@string/change_pwd" />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/changepwd"
+        android:layout_alignRight="@+id/changepwd"
+        android:layout_below="@+id/changepwd"
+        android:layout_marginTop="21dp"
+        android:text="@string/sign_out"
+        android:onClick="signOut" />
+
+    <TextView
+        android:id="@+id/userContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/badge"
+        android:layout_alignRight="@+id/userName"
+        android:text="@string/user_contact"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/badge"
+        android:layout_marginRight="36dp"
+        android:text="@string/user_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
